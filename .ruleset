@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<ruleset name="AndroidRules"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd"
+    xsi:noNamespaceSchemaLocation="http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+  <description>
+These rules deal with the Android SDK, mostly related to best practices.
+To get better results, make sure that the auxclasspath is defined for type resolution to work.
+This ruleset combines both android.xml.rules, my own rules, and PMD 5.0 rules applicable to 
+Android Java Application development.
+  </description>
+  
+  
+  <!--  Android rules cover SuperFirst and SuperLast
+        and ProtectLogD and ProtectLogV(android 1.5)  -->
+  <rule ref="rulesets/android.xml"/>
+  <rule ref="rulesets/basic.xml"/>
+  <rule ref="rulesets/braces.xml"/>
+  <rule ref="rulesets/junit.xml"/>
+  <!--  Per XLV Labs blog post:
+        http://blog.xlv-labs.com/?p=26
+   -->
+  <rule name="DoNotHardCodeSDCard"
+      message="Do not hardcode /sdcard."
+      class="net.sourceforge.pmd.rules.XPathRule">
+    <description>Use Environment.getExternalStorageDirectory() instead of "/sdcard"</description>
+    <priority>3</priority>
+    <properties>
+      <property name="xpath">
+        <value>//Literal[starts-with(@Image,'"/sdcard')]</value>
+      </property>
+    </properties>
+  </rule>
+
+  <rule ref="rulesets/clone.xml"/>
+  <rule ref="rulesets/finalizers.xml"/>
+  <rule ref="rulesets/imports.xml"/>
+  <rule ref="rulesets/logging-java.xml"/>
+  <!--  Per XLV Labs blog post:
+        http://blog.xlv-labs.com/?p=26
+   -->
+  <rule ref="rulesets/naming.xml">
+      <exclude name="AbstractNaming"/>
+    <exclude name="LongVariable"/>
+    <exclude name="LongMethodName"/>
+    <exclude name="ShortMethodName"/>
+    <exclude name="ShortVariable"/>
+    <exclude name="VariableNamingConventions"/>
+  </rule>
+  <rule ref="rulesets/strings.xml"/>
+  
+</ruleset>
