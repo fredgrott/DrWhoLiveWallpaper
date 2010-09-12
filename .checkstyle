@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="false">
+  <local-check-config name="and" location="/home/fredgrott/my35ws_github/DrWhoLiveWallpaper/eclipse_sun_checkstyle.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <fileset name="all" enabled="false" check-config-name="Sun Checks" local="false">
+    <file-match-pattern match-pattern="." include-pattern="true"/>
+  </fileset>
+  <fileset name="javaR" enabled="true" check-config-name="and" local="true">
+    <file-match-pattern match-pattern=".java$" include-pattern="true"/>
+    <file-match-pattern match-pattern="R.java" include-pattern="false"/>
+  </fileset>
+</fileset-config>
