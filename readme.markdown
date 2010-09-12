@@ -1,3 +1,4 @@
+![DrWhoLiveWallpaper(http://github.com/shareme/drwholivewallpaper/raw/master/screenshots/drwholivewp_Screenshot.png)
 # Project Name
 
 DrWhoLiveWallpaper is an example LiveWallpaper Android Application. It re-uses
@@ -18,6 +19,9 @@ http://www.apache.org/licenses/LICENSE-2.0.html
 
 # Usage
 
+Download page at:
+
+Obviously only installs on Android 2.1 devices and higher.
 
 # Credits
 
