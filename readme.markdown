@@ -1,9 +1,9 @@
-![DrWhoLiveWallpaper(http://github.com/shareme/drwholivewallpaper/raw/master/screenshots/drwholivewp_Screenshot.png)
+![DrWhoLiveWallpaper](http://github.com/shareme/DrWhoLiveWallpaper/raw/master/screenshots/drwholivewp_Screenshot.png)
 # Project Name
 
 DrWhoLiveWallpaper is an example LiveWallpaper Android Application. It re-uses
 Richard Green's GLWallpaper example from:
-http://www.rbgrn.net/content/354-glsurfaceview-adapted-3d-live-wallpapers
+[Richard Green's GLWallpaperService](http://www.rbgrn.net/content/354-glsurfaceview-adapted-3d-live-wallpapers)
 
 Basically, I am creating a 3d tunnel in openGL and applying a 2d texture to
 get the DRWho effect when its animated. The animation can be anything I choose
@@ -20,24 +20,26 @@ On the Java Enterprise side he has written technical articles for
 IBM DeveloperWorks and has co-authored articles on the Eclipse IDE.
 His linkedin profile can be found at:
 
-http://www.linkedin.com/in/shareme
+[Fred Grott's LinkedIN profile] (http://www.linkedin.com/in/shareme)
 
 His Android Developer Blog can be found at:
 
-http://mobilebytes.wordpress.com
+[MobileBytes Android Dev Blog] (http://mobilebytes.wordpress.com)
 
 His LAMP blog can be found at:
 
-http://hackedlabs.wordpress.com
+[HackedLabs LAMP Dev Blog] (http://hackedlabs.wordpress.com)
 
 # Project License
 
 The project is licensed under Apache License 2 and the text can be found at:
-http://www.apache.org/licenses/LICENSE-2.0.html
+[Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 # Usage
 
-Download page at:
+Download  at:
+[DrWhoLiveWallpaper APK via QR] (http://github.com/downloads/shareme/DrWhoLiveWallpaper/DrWhoLiveWallpaper.apk/qr_code)
+[DrWhoLiveWallpaper APK via http](http://github.com/shareme/DrWhoLiveWallpaper/raw/master/screenshots/DrWhoLiveWallpaper.apk)
 
 Obviously only installs on Android 2.1 devices and higher.
 
