@@ -20,15 +20,15 @@ On the Java Enterprise side he has written technical articles for
 IBM DeveloperWorks and has co-authored articles on the Eclipse IDE.
 His linkedin profile can be found at:
 
-[Fred Grott's LinkedIN profile] (http://www.linkedin.com/in/shareme)
+[Fred Grott's LinkedIN profile](http://www.linkedin.com/in/shareme)
 
 His Android Developer Blog can be found at:
 
-[MobileBytes Android Dev Blog] (http://mobilebytes.wordpress.com)
+[MobileBytes Android Dev Blog](http://mobilebytes.wordpress.com)
 
 His LAMP blog can be found at:
 
-[HackedLabs LAMP Dev Blog] (http://hackedlabs.wordpress.com)
+[HackedLabs LAMP Dev Blog](http://hackedlabs.wordpress.com)
 
 # Project License
 
@@ -38,7 +38,7 @@ The project is licensed under Apache License 2 and the text can be found at:
 # Usage
 
 Download  at:
-[DrWhoLiveWallpaper APK via QR] (http://github.com/downloads/shareme/DrWhoLiveWallpaper/DrWhoLiveWallpaper.apk/qr_code)
+[DrWhoLiveWallpaper APK via QR](http://github.com/downloads/shareme/DrWhoLiveWallpaper/DrWhoLiveWallpaper.apk/qr_code)
 [DrWhoLiveWallpaper APK via http](http://github.com/shareme/DrWhoLiveWallpaper/raw/master/screenshots/DrWhoLiveWallpaper.apk)
 
 Obviously only installs on Android 2.1 devices and higher.
